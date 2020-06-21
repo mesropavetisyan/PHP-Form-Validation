@@ -12,7 +12,9 @@ body {
 .form-container {
     display: flex;
     width: 80%;
-    margin: 25px auto;
+    margin: 10px auto;
+    justify-content: space-between;
+    max-width: 790px;
 }
 
 .user-img > img {
@@ -25,13 +27,7 @@ body {
 }
 
 .login-form {
-    background: #fff;
-    width: 35%;
-    border-radius: 2px;
-    padding: 15px 0 25px;
-}
-
-form {
+    width: 30%;
 }
 
 .login-field {
@@ -61,7 +57,7 @@ form {
 }
 
 .txt {
-    padding: 5px 0 10px;
+    padding: 4px 0 8px;
     font-size: 11px;
     color: rgba(10, 10, 10, 0.7);
 }
@@ -86,4 +82,197 @@ input[type="submit"] {
     width: 100%;
     background: #0066cc;
     color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: #fff;
+    color: #0066cc;
+    transition: 0.4s;
+}
+.register-form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-login {
+    background: #fff;
+    border-radius: 2px;
+    padding: 15px 0 25px;
+}
+
+.register-form-container {
+    width: 68%;
+    background: #fff;
+    border-radius: 2px;
+    padding: 10px 0 20px;
+}
+
+.reg-lang-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reg-title > h3 {
+    font-size: 15px;
+}
+
+.btn {
+    background: #0066cc;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    padding: 7px;
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #0066cc;
+}
+
+.en-btn {
+    border-radius: 0 4px 4px 0;
+    background: #5cb85c;
+    transition: 0.4s;
+}
+
+.en-btn:hover {
+    background: #fff;
+    color: #5cb85c;
+}
+
+.language-btn {
+    display: flex;
+}
+
+.first-last-name {
+    display: flex;
+    padding: 5px 0 5px;
+    justify-content: space-between;
+}
+
+.title-txt {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.first-name-field {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.last-name-field {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.red {
+    color: red;
+}
+
+.gender-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-text {
+    vertical-align: top;
+    font-size: 11px;
+}
+
+.nick-field {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 0;
+}
+
+.picture-field {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="file"] {
+    border: none;
+    padding: 0;
+}
+
+.info-field {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    border: 1px solid rgba(10, 10, 10, 0.2);
+}
+
+.email-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-reg-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up > input {
+    width: 100%;
+    background: #5cb85c;
+}
+.sign-up {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.password-reg-field:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: rgba(10, 10, 10, 0.1);
+}
+
+.password-img {
+    position: relative;
+}
+
+.password-img > input {
+    width: 100%;
+    box-sizing: border-box;
+}
+.password-img > svg {
+    position: absolute;
+    right: 0px;
+    width: 25px;
+    background: #eeeeee;
+    border: 1px solid rgba(10, 10, 10, 0.2);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.password-reg-img > input {
+    width: 100%;
+    box-sizing: border-box;
+}
+.password-reg-img > svg {
+    position: absolute;
+    right: 0px;
+    width: 25px;
+    background: #eeeeee;
+    border: 1px solid rgba(10, 10, 10, 0.2);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.password-reg-img {
+    position: relative;
 }
