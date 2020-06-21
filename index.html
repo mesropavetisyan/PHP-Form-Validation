@@ -13,12 +13,12 @@
                 <img src="img/user.png" alt="User">
             </div>
             <div class="login-field">
-                <span class="login-txt">Login</span>
+                <span class="login-txt title-txt">Login</span>
                 <input type="text" name="login" placeholder="Email or login">
-                <span class="email-login-txt">You can use Email or Login</span>
+                <span class="txt">You can use Email or Login</span>
             </div>
             <div class="password-field">
-                <span class="password-txt">Password</span>
+                <span class="password-txt title-txt">Password</span>
                 <input type="password" name="password" placeholder="Password">
             </div>
             <div class="sign">
@@ -29,8 +29,60 @@
     <div class="register-form">
         <div class="reg-title">
             <h3>Registration</h3>
+            <div class="language-btn">
+                <button class="rus-btn">Russian</button>
+                <button class="en-btn">English</button>
+            </div>
         </div>
-        <form action=""></form>
+        <form action="">
+            <div class="first-last-name">
+                <div class="first-name-field">
+                    <span class="first-name-txt title-txt">First Name</span>
+                    <input type="text" name="first-name" placeholder="Jane">
+                </div>
+                <div class="last-name-field">
+                    <span class="last-name-txt title-txt">Last Name</span>
+                    <input type="text" name="last-name" placeholder="Doe">
+                </div>
+            </div>
+            <div class="gender-field">
+                <span class="gender-txt title-txt">Gender</span>
+                <label for="male">
+                    <input type="radio" name="gender" value="male" id="male"> male
+                </label>
+                <label for="female">
+                    <input type="radio" name="gender" value="female" id="female"> female
+                </label>
+            </div>
+            <div class="nick-field">
+                <span class="nick-txt title-txt">Your nickname</span>
+                <input type="text" name="nick" placeholder="Jane Doe">
+                <span class="txt">Can be used for authorization, it will be your main identity on the site, should consist only of letters, numbers, underscores and hyphens if this is not the first or last character.</span>
+            </div>
+            <div class="picture-field">
+                <span class="picture-txt title-txt">Profile Picture</span>
+                <input type="file" name="picture">
+                <span class="txt">It will be displayed near the nickname and on your profile page.Allowed jpg, png and gif formats.</span>
+            </div>
+            <div class="info-field">
+                <span class="info-txt title-txt">Information</span>
+                <textarea name="text" title="info"></textarea>
+                <span class="txt">Tell other users a bit about yourself</span>
+            </div>
+            <div class="email-field">
+                <span class="email-txt title-txt">Profile Picture</span>
+                <input type="email" name="email" placeholder="jane.doe@example.com">
+                <span class="txt">Use on;y your own Email address, in case the password is lost it will be sent an email with instructions to reset.</span>
+            </div>
+            <div class="password-reg-field">
+                <span class="password-reg title-txt">Profile Picture</span>
+                <input type="password" name="password-reg" placeholder="Password">
+                <span class="txt">At least 4 characters. We recommend to choose a strong password to protect your account from cracking.</span>
+            </div>
+            <div class="sign sign-up">
+                <input type="submit" name="submit" value="Sign up">
+            </div>
+        </form>
     </div>
 </div>
 </body>
